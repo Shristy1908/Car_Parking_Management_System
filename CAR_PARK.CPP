@@ -40,7 +40,7 @@ void main()
       default:
 	  cout<<"YOU CHOOSE INVALID OPTION,CHOOSE CORRECT OPTION AGAIN!"<<endl;
    }
-   cout<<"IF YOU WANT TO ADD MORE VECHCELS THEN PLEASE PRESS 0 ELSE YOU CAN PRESS ANY KEY TO EXIT"<<endl;
+   cout<<"IF YOU WANT TO ADD MORE VEHICLES THEN PLEASE PRESS 0 ELSE YOU CAN PRESS ANY KEY TO EXIT"<<endl;
    cout<<"Enter your choise: ";
    cin>>d;
    clrscr();
@@ -53,14 +53,14 @@ int menu()
 {
    int c;
    cout<<"**********************************************"<<endl;
-   cout<<"PRESS 1 TO PARK BUS CHARGES IS 100 INR"<<endl;
-   cout<<"PRESS 2 TO PARK RIKSHA CHARGES IS 70 INR"<<endl;
-   cout<<"PRESS 3 TO PARK CYCLE CHARGES IS 50 INR"<<endl;
+   cout<<"PRESS 1 TO PARK BUS, CHARGES IS 100 INR"<<endl;
+   cout<<"PRESS 2 TO PARK RIKSHA, CHARGES IS 70 INR"<<endl;
+   cout<<"PRESS 3 TO PARK CYCLE, CHARGES IS 50 INR"<<endl;
    cout<<"PRESS 4 TO SEE THE ENTERED RECORD"<<endl;
    cout<<"PRESS 5 TO DELETE THE RECORD"<<endl;
    cout<<"PRESS 6 TO EXIT"<<endl;
    cout<<"**********************************************"<<endl;
-   cout<<"ENTER YOUR CHOISE: ";
+   cout<<"ENTER YOUR CHOICE: ";
    cin>>c;
    return c;
 }
